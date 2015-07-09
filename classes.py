@@ -34,7 +34,7 @@ class Musician(object):
 class Band(object):
     def __init__(self):
     
-    bandMembers = [
+    bandMembers = [Bassist(Musician),Guitarist(Musician),Drummer(Musician)]
     
     def hire(bandMember):
         bandMembers.append(bandMember)
